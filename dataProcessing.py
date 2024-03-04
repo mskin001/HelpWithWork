@@ -70,7 +70,6 @@ class TicTacToeGame:
     def toggle_player(self):
         self.current_player = next(self._players)
 
-
 class TicTacToeBoard(tk.Tk):
     def __init__(self,game):
         super().__init__()
