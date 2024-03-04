@@ -134,9 +134,7 @@ class TicTacToeBoard(tk.Tk):
             if coordinates in self._game.winner_combo:
                 button.config(bg="red")
     
-def main():
-    game = TicTacToeGame()
-    board = TicTacToeBoard(game)
-    board.mainloop()
-    
-main()
+
+game = TicTacToeGame()
+board = TicTacToeBoard(game)
+board.mainloop()
