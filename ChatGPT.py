@@ -75,7 +75,7 @@ def game_over():
     pygame.display.flip()
 
     # after 5 seconds we will quit the program
-    time.sleep(3)
+    time.sleep(2)
 
     # deactivating pygame library
     pygame.quit()
